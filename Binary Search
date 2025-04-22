@@ -1,0 +1,14 @@
+        int lo = 1;
+        int hi = n;
+        while (lo < hi)
+        {
+            int mid = (lo+hi) / 2;
+            if (isok() == true)
+            {
+                hi = mid;
+            }
+            else
+            {
+                lo = mid + 1;
+            }
+        }
